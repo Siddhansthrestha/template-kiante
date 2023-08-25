@@ -2053,7 +2053,7 @@ ul {
 ----------------------------------------------*/
 .top-header-area {
   position: relative;
-  padding-top: 8px;
+  padding-top: 38px;
   padding-bottom: 8px;
   border-bottom: 1px solid #C4C4C4;
 }
@@ -4113,4 +4113,39 @@ blockquote .icon {
 }
 .footer-area .copyright-area p span {
   color: #ff1d5b;
+}
+
+.comment-form {
+  /* Add Bootstrap classes to the comment form */
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.comment-form input,
+.comment-form textarea {
+  /* Customize the form fields */
+  width: 100%;
+  padding: .5rem;
+  border-radius: .25rem;
+}
+
+.comment-form button {
+  /* Customize the submit button */
+  width: 100%;
+  border-radius: 0;
+}
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+  gap: 20px; /* Add spacing between cards */
+}
+
+.card-cat {
+  flex: 0 0 calc(25% - 20px); /* Adjust the width of each card */
+  background-color: #f5f5f5; /* Add your desired background color */
+  border: 1px solid #ddd; /* Add a border for each card */
+  padding: 10px; /* Add padding to each card */
 }
