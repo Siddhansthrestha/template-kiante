@@ -23,6 +23,17 @@ add_theme_support('post-thumbnails');
 
 register_nav_menus(
     array('primary-menu'=>'Top Menu')
+);
+
+register_sidebar(
+
+array(
+    'name'=>"Sidebar Location",
+    'id'=>'sidebar'
 )
+
+);
+
+
 
 ?>
